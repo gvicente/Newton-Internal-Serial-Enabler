@@ -1,3 +1,8 @@
+Internal Serial Enabler for Newton OS
+-------------------------------------
+
+![Screenshot](images/screenshot.jpg)
+
 License & Disclaimer
 --------------------
 
@@ -44,7 +49,7 @@ capabilities, including three serial channels, power, audio, and a GPIO pin.
 http://www.unna.org/unna/apple/documentation/n2platform/n2-issdg.pdf
 
 For more information on the internal serial slot, you can see some content
-I posted to blogspot at the following address.
+I posted to blogspot at the following address: http://retronewton.blogspot.com
 
 Credits
 -------
@@ -66,4 +71,20 @@ There is also a SerialPort0LineDriverConfig function for toggling the
 SerPortSel0 signal.  This application also directly calls the GPIO functions
 for accessing pin 26 (the General Purpose I/O pin)
 
+Resource Forks
+--------------
 
+These files are intended to be built with the Mac classic versions of NTK and
+MPW.  
+
+As such, "SplitForks" has been used to prepare AppleDouble files (prexied with
+dot-underscore).
+
+You'll want to use "FixupResourceForks" to reassemble the resource forks,
+before copying the files to your emulated Mac Classic environment using the
+"unix" file share.
+
+For more information, check out the README.md of Dashboard. Mason Mark has
+provided a good overview near the bottom. 
+
+https://github.com/masonmark/Dash-Board-for-Newton-OS
