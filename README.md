@@ -7,7 +7,7 @@ License & Disclaimer
 --------------------
 
 This program is licensed under the GPL v2.  A copy is included with this
-distribution in the LICENCE.md file.
+distribution in the LICENSE.md file.
 
 BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR
 THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE
